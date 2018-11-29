@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Kontakt</title>
+<link href="https://fonts.googleapis.com/css?family=Alegreya+SC&amp;subset=latin-ext" rel="stylesheet">
+<link href="rase/style1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+	<header id="header">
+    	<div id="logo">
+           	<h1>Bullterrier</h1>
+        </div>
+        <div class="logo">
+            <img src="img/header.png" alt="logo"> 
+        </div>
+        <div id="slogan">
+          	<p>Tvoj najbolji prijatelj</p>
+        </div>
+    </header>
+	<nav id="nav">
+        <ul>
+        	<li><a href="index.html">Početna</a></li>
+            <li><a href="istorija.html">Kroz istoriju</a></li>
+            <li><a href="rase/pitbull.html">Pit bull terijer</a></li>
+            <li><a href="rase/Stafordshire.html">Stafordshire terijer</a></li>
+            <li><a href="rase/bullterijer.html">Bull terijer</a></li>
+            <li><a href="#">Galerija</a>
+                <ul>
+                   <li><a href="slike.html">Slike</a></li>
+                   <li><a href="video.html">Video</a></li>
+                </ul>
+            </li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+	</nav>
+  <div id="main">
+        <h1>Kontakt</h1>
+	<p>Ukoliko su vam potrebni saveti ili pomoc oko vašeg četvoronožnog prijatelja slobodno nam pišite.<br>Biće nam drago da vam pomognemo!</p>
+    	<div id="forma">
+    		<form action="mailto:gasparovicsasa@yahoo.com" method="post" enctype="text/plain">
+            <div class="unos">
+    		  <label for="ime">Ime:</label>
+              <br>
+              <input type="text" name="ime" id="ime">
+              <br>
+              <label for="ime">E-mail:</label>
+              <br>
+              <input type="text" name="mail" id="mail">
+              <br>
+              <label for="poruka">Poruka:</label>
+              <br>
+              <textarea></textarea>
+              <br>
+            </div>
+            <div class="check">
+           	  <p>Koje rase je vaš prijatelj ?
+              <br>
+           	    <label>
+           	      <input type="checkbox" name="Rase_" value="Pitbull" id="Rase_1">
+           	      Pitbull</label>
+           	    <br>
+           	    <label>
+           	      <input type="checkbox" name="Rase_" value="Staford" id="Rase_2">
+           	     Staford</label>
+           	    <br>
+           	    <label>
+           	      <input type="checkbox" name="Rase_" value="Bullterijer" id="Rase_3">
+           	      Bullterrier</label>
+           	    <br>
+       	      </p>
+            </div>
+            <div class="submit">
+              <input type="submit" value="Pošalji" onclick="alert(Poruka je poslata, hvala na poverenju!')">
+              <input type="reset" value="Resetuj">
+            </div>
+            </form>
+    	</div>
+   </div>
+    <footer id="footer">
+       	  <p>Copyright &copy; Gaspar
+          <a href="https://www.facebook.com/sasa.g.gasparovic" target="_blank"><img class="facebook" src="img/facebook_logo.png" alt="facebook"></a></p>
+    </footer>
+</div>
+
+</body>
+</html>
